@@ -6,7 +6,7 @@ Exploratory and descriptive statistical analysis of student academic performance
 using R, covering distributional assessment, normality testing, and bivariate correlation.
 
 
-📌 Project Overview
+ Project Overview
 This project was completed as part of CDS6224: Statistical Data Analysis and applies core statistical techniques to a real-world educational dataset. The analysis investigates whether a student's first-period grade (G1) is a reliable predictor of their final grade (G3), and explores the distributional properties of both variables.
 Key questions explored:
 
@@ -15,7 +15,7 @@ Does final grade (G3) follow a normal distribution?
 How strongly are G1 and G3 linearly associated?
 
 
-📁 Repository Structure
+Repository Structure
 student-performance-analysis/
 │
 ├── README.md
@@ -25,14 +25,14 @@ student-performance-analysis/
 │   └── analysis.R               # Full R script (Parts A–D)
 
 
-📂 Dataset
+ Dataset
 Source: UCI Machine Learning Repository — Student Performance
 Reference: Cortez & Silva, 2008
 Size: 395 observations, 33 variables
 Key variables used:
 VariableDescriptionTypeG1First-period grade (0–20)NumericalG3Final grade (0–20)NumericalsexStudent gender (M/F)Categorical
 
-🔍 Analysis Summary
+ Analysis Summary
 Part A — Exploratory Descriptive Analysis
 
 Computed descriptive statistics: mean, median, mode, SD, variance, range, IQR, and CV for G1 and G3
@@ -59,14 +59,14 @@ Discussed limitations of descriptive statistics and the role of inferential meth
 Reflected on how visualizations reveal patterns beyond numerical summaries
 
 
-🛠️ Tools & Libraries
+ Tools & Libraries
 
 Language: R
 IDE: RStudio
 Libraries: ggplot2
 
 
-▶️ How to Run
+ How to Run
 
 Clone this repository:
 
